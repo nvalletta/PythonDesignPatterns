@@ -39,6 +39,7 @@
   <ItemGroup>
     <Folder Include="behavioral\" />
     <Folder Include="behavioral\memento\" />
+	<Folder Include="behavioral\observer\" />
     <Folder Include="creational\" />
     <Folder Include="concurrency\" />
   </ItemGroup>
