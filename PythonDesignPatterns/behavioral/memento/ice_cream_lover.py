@@ -2,7 +2,7 @@
 from behavioral.memento.ice_cream_memento import IceCreamMemento
 
 class IceCreamLover(object):
-    """description of class"""
+    """A lover of ice creams is a thing who loves the ice cream."""
 
     def __init__(self, name="Lover of the ice creams"):
         self.name = name

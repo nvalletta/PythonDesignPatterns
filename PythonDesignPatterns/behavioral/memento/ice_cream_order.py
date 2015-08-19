@@ -1,5 +1,5 @@
 ﻿class IceCreamOrder(object):
-    """description of class"""
+    """An order... of ice cream."""
 
     def __init__(self):
         self.flavor = "Vanilla"

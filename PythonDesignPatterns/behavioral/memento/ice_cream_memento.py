@@ -1,7 +1,7 @@
 ﻿import copy
 
 class IceCreamMemento(object):
-    """description of class"""
+    """I'm a mementoooo"""
 
     def save(self, obj, deep = False):
         self.state = (copy.copy if deep else copy.deepcopy)(obj.__dict__)

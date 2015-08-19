@@ -1,7 +1,7 @@
 ﻿from behavioral.memento.ice_cream_lover import IceCreamLover
 
 class MementoPattern(object):
-    """description of class"""
+    """Demonstrates the memento pattern."""
 
     def __init__(self):
         self.nora = IceCreamLover("Nora")

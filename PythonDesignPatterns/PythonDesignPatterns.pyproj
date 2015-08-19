@@ -34,12 +34,27 @@
     <Compile Include="behavioral\memento\memento_pattern.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="behavioral\observer\cat.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="behavioral\observer\event.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="behavioral\observer\human.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="behavioral\observer\observer_pattern.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="behavioral\observer\observable.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="python_design_patterns.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="behavioral\" />
     <Folder Include="behavioral\memento\" />
-	<Folder Include="behavioral\observer\" />
+    <Folder Include="behavioral\observer\" />
     <Folder Include="creational\" />
     <Folder Include="concurrency\" />
   </ItemGroup>
