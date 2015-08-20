@@ -1,4 +1,5 @@
-﻿import behavioral.obesrver.human
+﻿from behavioral.observer.human import Human
+from behavioral.observer.cat import Cat
 
 class ObserverPattern(object):
     """Demonstrates the observer pattern."""

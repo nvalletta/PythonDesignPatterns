@@ -7,8 +7,8 @@ class Human(object):
         self.name = name
 
     def take_a_picture(self):
-        print(name + " takes a picture of " + cat.name)
+        print(self.name + " takes a picture of " + self.cat.name)
 
     def adopt_cat(self, cat):
         self.cat = cat
-        self.cat.observe(take_a_picture)
+        self.cat.observe(self.take_a_picture)

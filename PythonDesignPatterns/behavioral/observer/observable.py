@@ -1,5 +1,5 @@
 ﻿import threading
-import behavioral.observer.event
+from behavioral.observer.event import Event
 
 class Observable(object):
     """An observable thing."""
@@ -18,4 +18,6 @@ class Observable(object):
         e.source = self
 
         for fn in self.callbacks:
-            fn(e)
+            fn()
+            # If we wanted to notify of the
+            # event itself: fn(e)
