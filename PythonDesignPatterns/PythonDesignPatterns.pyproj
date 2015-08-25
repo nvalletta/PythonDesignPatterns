@@ -34,6 +34,7 @@
     <Compile Include="behavioral\memento\memento_pattern.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="behavioral\memento\__init__.py" />
     <Compile Include="behavioral\observer\cat.py">
       <SubType>Code</SubType>
     </Compile>
@@ -49,6 +50,10 @@
     <Compile Include="behavioral\observer\observable.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="behavioral\observer\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="behavioral\__init__.py" />
     <Compile Include="python_design_patterns.py" />
   </ItemGroup>
   <ItemGroup>
