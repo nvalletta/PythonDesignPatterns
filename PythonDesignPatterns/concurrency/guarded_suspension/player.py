@@ -10,7 +10,7 @@ class Player(object):
 
     def throw_balls(self):
         while Coach.game_is_on():
-            print(self.name + " throws a ball!")
+            print(self.name + " throws a ball!\n")
 
     def start_playing(self):
         while True:

@@ -1,4 +1,5 @@
-﻿from concurrency.guarded_suspension.player import Player
+﻿import time
+from concurrency.guarded_suspension.player import Player
 from concurrency.guarded_suspension.coach import Coach
 
 class GuardedSuspensionPattern(object):
@@ -11,8 +12,15 @@ class GuardedSuspensionPattern(object):
         self.coach = Coach()
 
     def demonstrate(self):
-        self.coach.coach_the_game()
         self.player1.participate()
         self.player2.participate()
         self.player3.participate()
+
         self.coach.coach_the_game()
+        time.sleep(5)
+        self.coach.coach_the_game()
+        time.sleep(5)
+        self.coach.coach_the_game()
+        time.sleep(5)
+        self.coach.coach_the_game()
+
