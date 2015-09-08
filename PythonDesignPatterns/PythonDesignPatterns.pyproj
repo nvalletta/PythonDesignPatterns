@@ -54,12 +54,24 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="behavioral\__init__.py" />
+    <Compile Include="concurrency\guarded_suspension\coach.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="concurrency\guarded_suspension\guarded_suspension_pattern.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="concurrency\guarded_suspension\player.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="concurrency\guarded_suspension\__init__.py" />
+    <Compile Include="concurrency\__init__.py" />
     <Compile Include="python_design_patterns.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="behavioral\" />
     <Folder Include="behavioral\memento\" />
     <Folder Include="behavioral\observer\" />
+    <Folder Include="concurrency\guarded_suspension\" />
     <Folder Include="creational\" />
     <Folder Include="concurrency\" />
   </ItemGroup>
