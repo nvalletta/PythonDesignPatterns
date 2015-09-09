@@ -8,4 +8,4 @@ class Weapon(object):
         self.enchant = Enchant(enchant_type)
         self.gem = Gem(gem_type)
         self.weapon_type = weapon_type
-        self.description = "Enchant: " + str(enchant_type) + "\nGem: " + str(gem_type) + "\n Weapon type: " + str(weapon_type)
+        self.description = "\n    Enchant: " + str(enchant_type) + "\n    Gem: " + str(gem_type) + "\n    Weapon type: " + str(weapon_type) + "\n"

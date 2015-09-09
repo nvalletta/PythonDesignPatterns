@@ -8,4 +8,4 @@ class Armor(object):
         self.enchant = Enchant(enchant_type)
         self.gem = Gem(gem_type)
         self.armor_type = armor_type
-        self.description = "Enchant: " + str(enchant_type) + "\nGem: " + str(gem_type) + "\n Armor type: " + str(armor_type)
+        self.description = "\n    Enchant: " + str(enchant_type) + "\n    Gem: " + str(gem_type) + "\n    Armor type: " + str(armor_type) + "\n"
