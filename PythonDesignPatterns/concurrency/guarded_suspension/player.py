@@ -11,11 +11,11 @@ class Player(object):
     def throw_balls(self):
         while Coach.game_is_on():
             print(self.name + " throws a ball!\n")
+            sys.stdout.flush()
 
     def start_playing(self):
         while True:
             self.throw_balls()
-            sys.stdout.flush()
 
     def participate(self):
         t = threading.Thread(target=self.start_playing)
