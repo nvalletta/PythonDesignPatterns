@@ -1,4 +1,5 @@
 ﻿import sys
+import time
 
 class Person(object):
     """Hi, I'm a person."""
@@ -7,5 +8,6 @@ class Person(object):
         self.name = name
 
     def have_fun(self):
-        print(self.name + " is having fun!")
+        time.sleep(5)
+        print(self.name + " is having fun!\n")
         sys.stdout.flush()

@@ -64,6 +64,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="concurrency\guarded_suspension\__init__.py" />
+    <Compile Include="concurrency\thread_pool\thread_pool_pattern.py" />
     <Compile Include="concurrency\thread_pool\person.py">
       <SubType>Code</SubType>
     </Compile>

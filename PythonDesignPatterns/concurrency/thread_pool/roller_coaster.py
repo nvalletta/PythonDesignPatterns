@@ -16,5 +16,3 @@ class RollerCoaster(object):
 
     def begin_ride(self):
         futures.wait(self.threads, return_when=futures.ALL_COMPLETED)
-        for thread in threads: thread.result()
-        for person in patron_line: print(person.have_fun)
