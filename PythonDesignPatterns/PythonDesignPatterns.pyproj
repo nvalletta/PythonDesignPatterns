@@ -64,6 +64,13 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="concurrency\guarded_suspension\__init__.py" />
+    <Compile Include="concurrency\thread_pool\person.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="concurrency\thread_pool\roller_coaster.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="concurrency\thread_pool\__init__.py" />
     <Compile Include="concurrency\__init__.py" />
     <Compile Include="python_design_patterns.py" />
   </ItemGroup>
@@ -72,6 +79,7 @@
     <Folder Include="behavioral\memento\" />
     <Folder Include="behavioral\observer\" />
     <Folder Include="concurrency\guarded_suspension\" />
+    <Folder Include="concurrency\thread_pool\" />
     <Folder Include="creational\" />
     <Folder Include="concurrency\" />
   </ItemGroup>
