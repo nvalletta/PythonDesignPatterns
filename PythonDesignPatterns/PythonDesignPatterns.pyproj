@@ -106,6 +106,13 @@
     </Compile>
     <Compile Include="creational\abstract_factory\models\__init__.py" />
     <Compile Include="creational\abstract_factory\__init__.py" />
+    <Compile Include="creational\builder\builder_pattern.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="creational\builder\grooming_appointment.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="creational\builder\__init__.py" />
     <Compile Include="creational\__init__.py" />
     <Compile Include="python_design_patterns.py" />
   </ItemGroup>
@@ -120,6 +127,7 @@
     <Folder Include="creational\abstract_factory\" />
     <Folder Include="creational\abstract_factory\factories\" />
     <Folder Include="creational\abstract_factory\models\" />
+    <Folder Include="creational\builder\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
